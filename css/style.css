@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=League+Spartan&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow: hidden;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+header, nav, h2, footer{
+    font-family: 'League Spartan', sans-serif;
+}
+header, main h1, main h2, nav, footer{
+    padding: 0 14vw;
+}
+/*BODY*/
+body{
+    font-size: 18px;
+}
+    
+/*HEADER*/
+header p{
+    font-weight: 700;
+    font-size: 1,5em;
+    text-transform: uppercase;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ABEBE;
+    color: #D7F619;
+    height: 8.33vh;
+}
+/*NAV*/
+nav a{
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D7F619;
+    height: 16.66vh;
+    font-size: 0.7cm;
+}
+nav a{
+    color: #1ABEBE;
+}
+nav a:nth-child(2){
+    width: 100px;
+    height: 100px;
+    padding: 0 5cm;
+}
+nav a img{
+    width: 100%;
+    height: auto;
+}
+/*MAIN*/
+main{
+    display: flex;
+    background-color: #D7F619;
+    height: 58.31vh;
+    flex-direction: column;
+}
+main h1{
+    color: #1ABEBE;
+    font-size: 1.8cm;
+}
+main hgroup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+/*FOOTER*/
+footer, address, footer a{
+    font-weight: 700;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1ABEBE;
+    color: #FFFFFF;
+    height: 16.66vh;
+    padding-top: 0cm;
+    font-size: 0.4cm;
+}
